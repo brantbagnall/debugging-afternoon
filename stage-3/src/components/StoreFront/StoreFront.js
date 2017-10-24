@@ -5,7 +5,7 @@ import { addToShoppingCart, getAllProducts } from '../../redux/reducer';
 
 class StoreFront extends Component {
 
-    componentDidMount() {
+    componentWillMount() {
         this.props.getAllProducts();
     }
 
